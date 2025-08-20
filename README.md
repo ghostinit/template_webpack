@@ -1,9 +1,11 @@
 # template_webpack
+
 Webpack Template Repo
 
 ## Includes all basics for a webpack based project
 
 ### Modules
+
 - webpack
 - webpack-dev-server
 - webpack-cli
@@ -15,7 +17,9 @@ Webpack Template Repo
 - style-loader
 
 ### Functionality
+
 Includes functioning..
+
 - Font
 - Image
 - Module export/import
@@ -25,6 +29,7 @@ Includes functioning..
 - Basic scripts
 
 ### Instructions for use
+
 - Create New Repo
 - Select 'template_webpack' as template
 - Clone into new repo

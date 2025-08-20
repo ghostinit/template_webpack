@@ -8,7 +8,7 @@ import { greeting } from "./greeting.js";
 
 console.log(greeting);
 
-const body = document.querySelector('body');
-const img = document.createElement('img');
+const body = document.querySelector("body");
+const img = document.createElement("img");
 img.src = bg_image;
 body.appendChild(img);
