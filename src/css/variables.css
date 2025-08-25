@@ -1,0 +1,16 @@
+/* ====================== DARK THEME ======================== */
+:root.dark {
+  /* Colors */
+  --color-bg: rgb(23, 23, 23);
+  --color-font-primary: rgb(200, 200, 200);
+
+  --color-menu-bg: rgb(50, 50, 50);
+}
+
+/* ======================= LIGHT THEME ======================== */
+:root.light {
+  --color-bg: rgb(200, 200, 200);
+  --color-font-primary: rgb(23, 23, 23);
+
+  --color-menu-bg: rgb(180, 180, 180);
+}

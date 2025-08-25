@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  width: auto;
+}
+
+#page-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn {
+  position: absolute;
+  right: 10px;
+}
+
+.menu-drop-down {
+  position: absolute;
+  right: 10px;
+  top: 36px;
+  padding-block: 10px;
+  padding-inline: 17px;
+}
+
+.hidden {
+  display: none;
+}

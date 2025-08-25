@@ -1,0 +1,43 @@
+body {
+  background-color: var(--color-bg);
+  color: var(--color-font-primary);
+  transition: 0.2s ease;
+}
+
+.menu-btn {
+  border: none;
+  background: none;
+  transition: 0.2s ease;
+}
+
+.menu-btn-svg {
+  fill: var(--color-font-primary);
+  transition: 0.2s ease;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.menu-btn:active {
+  transform: scale(0.9);
+}
+
+.menu-drop-down {
+  background-color: var(--color-menu-bg);
+  border-radius: 20px;
+  transition: 0.2s ease;
+}
+
+.menu-dropdown-item {
+  padding-block: 2px;
+  padding-inline: 5px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.menu-dropdown-item:hover {
+  cursor: pointer;
+  background-color: var(--color-bg);
+}

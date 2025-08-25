@@ -1,14 +1,9 @@
 import "/src/css/reset.css";
-import "/src/css/styles.css";
+import "/src/css/fonts.css";
+import "/src/css/variables.css";
+import "/src/css/layout.css";
+import "/src/css/theme.css";
 
-import bg_image from "/src/images/background.jpg";
+import { UIManager as UI } from "./ui_manager";
 
-// index.js
-import { greeting } from "./greeting.js";
-
-console.log(greeting);
-
-const body = document.querySelector("body");
-const img = document.createElement("img");
-img.src = bg_image;
-body.appendChild(img);
+UI.init();
